@@ -3,9 +3,17 @@ body {
 }
 .header {
   display: flex;
-  justify-content: center;
   background-color: bisque;
   height: 100px;
+}
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+.text-center {
+  text-align: center;
 }
 .footer {
   display: flex;
