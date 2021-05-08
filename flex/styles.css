@@ -1,6 +1,32 @@
-h1 {
-    color: chocolate;
+body {
+  font-family: sans-serif;
 }
-menu {
-    display: flex;
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  height: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  height: 100px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+}
+.content {
+  background-color: burlywood;
+  flex: 1 1 150px;
+}
+.menu {
+  background-color: antiquewhite;
+  flex: 5 1 150px;
+}
+.aside {
+  background-color: coral;
+  flex: 5 1 150px;
 }
